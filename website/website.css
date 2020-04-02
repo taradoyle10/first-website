@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 45px;
+    font-style: bold;
+}
+h2 {
+    color: rgb(64, 64, 231);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+h3,
+h4,
+h5,
+h6 {
+    color: blue;
+}
+body {
+    background-color: rgb(207, 219, 226);
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+nav {
+    float:none;
+    text-align: center;
+}
+nav ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    float: none;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    position: relative;
+}
+nav a {
+    color: darkblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover {
+    color: white;
+}
+nav a::before {
+    content:'';
+    display: block;
+    height: 5px;
+    
+    background-color: darkblue;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 200ms;
+}
+nav a:hover::before{
+    width:100%;
+}
+.quote {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+#image1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#intro {
+    color: rgb(64, 64, 233);
+    width: 100%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
